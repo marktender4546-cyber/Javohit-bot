@@ -1,0 +1,369 @@
+{
+  "settings": {
+    "brand": "EduPro Academy",
+    "currency": {
+      "uz": "so‘m",
+      "ru": "сум"
+    },
+    "about": {
+      "uz": "🎓 <b>EduPro Academy</b> — 2018-yildan beri faoliyat yuritayotgan onlayn o‘quv markaz.\n\n• 5 000+ bitiruvchi\n• Amaliyotchi o‘qituvchilar\n• Har bir kursda real loyiha\n• Bitirganlarga sertifikat va ish topishda yordam\n\nDarslar jonli va yozib olingan formatda, o‘zingizga qulay vaqtda.",
+      "ru": "🎓 <b>EduPro Academy</b> — онлайн-школа, работающая с 2018 года.\n\n• 5 000+ выпускников\n• Преподаватели-практики\n• Реальный проект в каждом курсе\n• Сертификат и помощь с трудоустройством\n\nУроки в формате live и в записи — в удобное для вас время."
+    },
+    "contact": {
+      "phone": "+998 90 123 45 67",
+      "telegram": "https://t.me/your_manager_username",
+      "instagram": "https://instagram.com/your_account",
+      "website": "https://example.com",
+      "address": {
+        "uz": "Toshkent sh., Amir Temur ko‘chasi, 1",
+        "ru": "г. Ташкент, ул. Амира Темура, 1"
+      },
+      "hours": {
+        "uz": "Du–Sh, 09:00–18:00",
+        "ru": "Пн–Сб, 09:00–18:00"
+      }
+    },
+    "faq": [
+      {
+        "q": {
+          "uz": "Kurslar qanday o‘tadi?",
+          "ru": "Как проходят курсы?"
+        },
+        "a": {
+          "uz": "Darslar haftasiga 3 marta jonli efirda o‘tadi va yozib olinadi. Uy vazifalarini o‘qituvchi tekshiradi.",
+          "ru": "Занятия проходят 3 раза в неделю в прямом эфире и записываются. Домашние задания проверяет преподаватель."
+        }
+      },
+      {
+        "q": {
+          "uz": "Sertifikat beriladimi?",
+          "ru": "Выдаётся ли сертификат?"
+        },
+        "a": {
+          "uz": "Ha, kursni muvaffaqiyatli tugatganlarga elektron sertifikat beriladi.",
+          "ru": "Да, после успешного окончания курса выдаётся электронный сертификат."
+        }
+      },
+      {
+        "q": {
+          "uz": "Dars qo‘shib qo‘yilmasa-chi?",
+          "ru": "Что если я пропущу занятие?"
+        },
+        "a": {
+          "uz": "Barcha darslar yozib olinadi, kurs davomida istalgan vaqtda qayta ko‘rishingiz mumkin.",
+          "ru": "Все занятия записываются, их можно пересматривать в любое время во время курса."
+        }
+      },
+      {
+        "q": {
+          "uz": "To‘lovni qanday amalga oshiraman?",
+          "ru": "Как оплатить обучение?"
+        },
+        "a": {
+          "uz": "Ariza qoldiring — menejer siz bilan bog‘lanib, to‘lov usullarini tushuntiradi.",
+          "ru": "Оставьте заявку — менеджер свяжется с вами и расскажет о способах оплаты."
+        }
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "it",
+      "title": {
+        "uz": "💻 Dasturlash va dizayn",
+        "ru": "💻 Программирование и дизайн"
+      }
+    },
+    {
+      "id": "lang",
+      "title": {
+        "uz": "🌍 Xorijiy tillar",
+        "ru": "🌍 Иностранные языки"
+      }
+    },
+    {
+      "id": "mkt",
+      "title": {
+        "uz": "📈 Marketing",
+        "ru": "📈 Маркетинг"
+      }
+    }
+  ],
+  "courses": [
+    {
+      "id": "python",
+      "category": "it",
+      "title": {
+        "uz": "Python dasturlash",
+        "ru": "Программирование на Python"
+      },
+      "short": {
+        "uz": "Noldan boshlab backend dasturchi bo‘ling",
+        "ru": "Станьте backend-разработчиком с нуля"
+      },
+      "description": {
+        "uz": "Python asoslaridan boshlab Django va Telegram botlargacha. Har oy amaliy loyiha, oxirida portfolio.",
+        "ru": "От основ Python до Django и Telegram-ботов. Практический проект каждый месяц и портфолио в конце."
+      },
+      "price": 990000,
+      "old_price": 1290000,
+      "lessons": 36,
+      "duration": {
+        "uz": "3 oy",
+        "ru": "3 месяца"
+      },
+      "level": {
+        "uz": "Boshlang‘ich",
+        "ru": "Начальный"
+      },
+      "format": {
+        "uz": "Onlayn, jonli + yozuv",
+        "ru": "Онлайн, live + запись"
+      },
+      "image": "python.jpg",
+      "gallery": [
+        "python_2.jpg"
+      ],
+      "program": {
+        "uz": [
+          "Python sintaksisi va ma’lumot turlari",
+          "Funksiyalar va OOP",
+          "Fayllar va xatoliklar bilan ishlash",
+          "Git va GitHub",
+          "SQL va ma’lumotlar bazasi",
+          "Django asoslari",
+          "REST API",
+          "Telegram bot yaratish",
+          "Yakuniy loyiha"
+        ],
+        "ru": [
+          "Синтаксис и типы данных Python",
+          "Функции и ООП",
+          "Файлы и обработка ошибок",
+          "Git и GitHub",
+          "SQL и базы данных",
+          "Основы Django",
+          "REST API",
+          "Создание Telegram-бота",
+          "Итоговый проект"
+        ]
+      },
+      "teacher": {
+        "name": "Aziz Karimov",
+        "bio": {
+          "uz": "Senior backend dasturchi, 8 yillik tajriba. 200+ o‘quvchini ishga joylashtirgan.",
+          "ru": "Senior backend-разработчик, 8 лет опыта. Помог трудоустроиться 200+ ученикам."
+        }
+      },
+      "reviews": [
+        {
+          "name": "Dilshod",
+          "rating": 5,
+          "text": {
+            "uz": "Noldan boshladim, 4 oyda birinchi ishimni topdim.",
+            "ru": "Начал с нуля, через 4 месяца нашёл первую работу."
+          }
+        },
+        {
+          "name": "Madina",
+          "rating": 5,
+          "text": {
+            "uz": "Tushuntirishlar juda oddiy va aniq.",
+            "ru": "Объяснения очень простые и понятные."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ielts",
+      "category": "lang",
+      "title": {
+        "uz": "IELTS intensiv",
+        "ru": "IELTS интенсив"
+      },
+      "short": {
+        "uz": "6 oyda 7.0+ ball uchun tayyorgarlik",
+        "ru": "Подготовка к 7.0+ за 6 месяцев"
+      },
+      "description": {
+        "uz": "Listening, Reading, Writing va Speaking bo‘yicha tizimli tayyorgarlik. Har hafta mock-test.",
+        "ru": "Системная подготовка по Listening, Reading, Writing и Speaking. Еженедельные mock-тесты."
+      },
+      "price": 1200000,
+      "lessons": 72,
+      "duration": {
+        "uz": "6 oy",
+        "ru": "6 месяцев"
+      },
+      "level": {
+        "uz": "Intermediate+",
+        "ru": "Intermediate+"
+      },
+      "format": {
+        "uz": "Onlayn, guruhda",
+        "ru": "Онлайн, в группе"
+      },
+      "image": "ielts.jpg",
+      "gallery": [
+        "ielts_2.jpg"
+      ],
+      "program": {
+        "uz": [
+          "Diagnostik test va reja",
+          "Listening strategiyalari",
+          "Reading: tez o‘qish texnikasi",
+          "Writing Task 1 va 2",
+          "Speaking amaliyoti",
+          "Haftalik mock-testlar"
+        ],
+        "ru": [
+          "Диагностический тест и план",
+          "Стратегии Listening",
+          "Reading: техники быстрого чтения",
+          "Writing Task 1 и 2",
+          "Практика Speaking",
+          "Еженедельные mock-тесты"
+        ]
+      },
+      "teacher": {
+        "name": "Sarah Johnson",
+        "bio": {
+          "uz": "IELTS ekspert, 10 yillik tajriba, sertifikatlangan o‘qituvchi.",
+          "ru": "Эксперт IELTS, 10 лет опыта, сертифицированный преподаватель."
+        }
+      },
+      "reviews": [
+        {
+          "name": "Nodira",
+          "rating": 5,
+          "text": {
+            "uz": "Speaking’dan 5.5 dan 7.0 ga chiqdim!",
+            "ru": "По Speaking поднялась с 5.5 до 7.0!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "category": "it",
+      "title": {
+        "uz": "UI/UX dizayn (Figma)",
+        "ru": "UI/UX дизайн (Figma)"
+      },
+      "short": {
+        "uz": "Mobil va veb ilovalar dizayni",
+        "ru": "Дизайн мобильных и веб-приложений"
+      },
+      "description": {
+        "uz": "Figma’da noldan prototipgacha. Dizayn tizimi, komponentlar va portfolio uchun 3 ta loyiha.",
+        "ru": "Figma от нуля до прототипа. Дизайн-системы, компоненты и 3 проекта для портфолио."
+      },
+      "price": 850000,
+      "old_price": 1000000,
+      "lessons": 28,
+      "duration": {
+        "uz": "2,5 oy",
+        "ru": "2,5 месяца"
+      },
+      "level": {
+        "uz": "Boshlang‘ich",
+        "ru": "Начальный"
+      },
+      "format": {
+        "uz": "Onlayn, yozuv + mentor",
+        "ru": "Онлайн, запись + ментор"
+      },
+      "image": "figma.jpg",
+      "program": {
+        "uz": [
+          "Dizayn asoslari: rang, shrift, kompozitsiya",
+          "Figma interfeysi",
+          "Auto Layout va komponentlar",
+          "Mobil ilova dizayni",
+          "Prototiplash",
+          "Portfolio"
+        ],
+        "ru": [
+          "Основы дизайна: цвет, шрифт, композиция",
+          "Интерфейс Figma",
+          "Auto Layout и компоненты",
+          "Дизайн мобильного приложения",
+          "Прототипирование",
+          "Портфолио"
+        ]
+      },
+      "teacher": {
+        "name": "Malika Yusupova",
+        "bio": {
+          "uz": "Product designer, xalqaro startaplarda ishlagan.",
+          "ru": "Product-дизайнер, работала в международных стартапах."
+        }
+      },
+      "reviews": []
+    },
+    {
+      "id": "smm",
+      "category": "mkt",
+      "title": {
+        "uz": "SMM va kontent marketing",
+        "ru": "SMM и контент-маркетинг"
+      },
+      "short": {
+        "uz": "Brendni ijtimoiy tarmoqlarda o‘stirish",
+        "ru": "Продвижение брендов в соцсетях"
+      },
+      "description": {
+        "uz": "Strategiya, kontent-reja, Reels, target reklama va tahlil. Real mijozlar bilan amaliyot.",
+        "ru": "Стратегия, контент-план, Reels, таргетированная реклама и аналитика. Практика на реальных клиентах."
+      },
+      "price": 700000,
+      "lessons": 24,
+      "duration": {
+        "uz": "2 oy",
+        "ru": "2 месяца"
+      },
+      "level": {
+        "uz": "Boshlang‘ich",
+        "ru": "Начальный"
+      },
+      "format": {
+        "uz": "Onlayn, jonli",
+        "ru": "Онлайн, live"
+      },
+      "image": "smm.jpg",
+      "program": {
+        "uz": [
+          "SMM strategiyasi",
+          "Kontent-reja",
+          "Reels va qisqa videolar",
+          "Target reklama",
+          "Analitika va hisobotlar"
+        ],
+        "ru": [
+          "SMM-стратегия",
+          "Контент-план",
+          "Reels и короткие видео",
+          "Таргетированная реклама",
+          "Аналитика и отчёты"
+        ]
+      },
+      "teacher": {
+        "name": "Jasur Rahimov",
+        "bio": {
+          "uz": "SMM mutaxassisi, 50+ brend bilan ishlagan.",
+          "ru": "SMM-специалист, работал с 50+ брендами."
+        }
+      },
+      "reviews": [
+        {
+          "name": "Aziza",
+          "rating": 4,
+          "text": {
+            "uz": "Amaliyot ko‘p, mijoz topishga ham yordam berishdi.",
+            "ru": "Много практики, помогли найти клиентов."
+          }
+        }
+      ]
+    }
+  ]
+}
